@@ -29,7 +29,7 @@ function Navbar() {
           </ul>
         </div>
         <div>
-            <button value="en" className="lang" onClick={onChangeLang}>EN</button>
+            <button value="en" className="lang" onClick={onChangeLang}>EN</button>  {/* --> value is important otherwise converting language not working */}
             <button value="ur" className="lang" onClick={onChangeLang}>UR</button>
           </div>
       </div>
